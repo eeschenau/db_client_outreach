@@ -24,5 +24,5 @@ Welcome to the outreach tool! The purpose is to create an easy, actionable list 
     #Search by company / ticker for now. (Therapeutic area for later.)
 
     # What company are you interested in? Enter ticker or name.
-    # SELECT clientID, clientFirm,
+    # SELECT clientID, clientFirm, ticker FROM table1, table2 WHERE firmnames in LIST GROUP by firmType HAVING (optional) ORDER DESC contractValue
     # IF nothing found, prompt user to check spelling or shorten to a commonly used version of the company name.
